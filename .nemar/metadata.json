@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Young Adult Resting State and Auditory Oddball Task EEG Data",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from young adult participants during resting state and auditory oddball task conditions. Data were collected under two experimental conditions: a control condition and a shock threat condition involving threat of unpredictable shock. The dataset includes both passive and active variants of the auditory oddball task, as well as resting state recordings with eyes open and closed, designed to investigate locus coeruleus-noradrenaline system function and its relationship to attention and arousal.",
+  "methods_description": "EEG data were collected during resting state (5 minutes eyes open and 5 minutes eyes closed) and auditory oddball tasks (passive and active variants) under control and shock threat conditions. The auditory oddball task included standard tones, target tones, and distractor tones, with the active variant including a manual response component.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,57 @@
     "Santiago Morales": {},
     "Joshua Senior": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006480.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "auditory oddball task"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "arousal"
+    },
+    {
+      "term": "locus coeruleus"
+    },
+    {
+      "term": "noradrenaline system"
+    },
+    {
+      "term": "shock threat"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "passive oddball"
+    },
+    {
+      "term": "active oddball"
+    },
+    {
+      "term": "young adults"
+    },
+    {
+      "term": "eyes open"
+    },
+    {
+      "term": "eyes closed"
+    },
+    {
+      "term": "threat condition"
+    },
+    {
+      "term": "control condition"
+    },
+    {
+      "term": "pupillometry"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1101/2025.10.02.680040",
       "identifier_type": "DOI",
@@ -37,66 +84,36 @@
       "identifier": "10.1186/s13063-024-08036-4",
       "identifier_type": "DOI",
       "relation_type": "IsPartOf"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from young adult participants during resting state and auditory oddball task conditions. Data were collected under two experimental conditions: a control condition and an arousal condition involving threat of unpredictable shock. The dataset includes both passive and active variants of the auditory oddball task, as well as resting state recordings with eyes open and closed, providing a comprehensive resource for investigating neural responses to auditory stimuli and the effects of threat-induced arousal on brain activity.",
-  "methods_description": "EEG data were collected during resting state (5 minutes eyes open and 5 minutes eyes closed) and auditory oddball tasks (passive and active variants) under control and shock threat conditions. The auditory oddball task included standard tones, target tones, and distractor tones, with the active variant including a manual response component.",
-  "keywords": [
-    {
-      "term": "EEG"
     },
     {
-      "term": "auditory oddball task"
-    },
-    {
-      "term": "oddball paradigm"
-    },
-    {
-      "term": "resting state"
-    },
-    {
-      "term": "threat of shock"
-    },
-    {
-      "term": "threat conditioning"
-    },
-    {
-      "term": "arousal"
-    },
-    {
-      "term": "locus coeruleus"
-    },
-    {
-      "term": "noradrenaline system"
-    },
-    {
-      "term": "young adults"
-    },
-    {
-      "term": "passive oddball"
-    },
-    {
-      "term": "active oddball"
+      "identifier": "10.18112/openneuro.ds006480.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "National Institute on Aging",
       "award_number": ""
+    },
+    {
+      "funder_name": "National Institute on Aging",
+      "award_number": "Not available"
     }
   ],
-  "source_hash": "5c81bff2752ed470330788510c884af0b4f508def018c7487140ae0a02a0e340"
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "68.8 GB (69 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "1d87eb402230df2c2e831c42d0c99420ab6d458ed88ae9efeba22b61834e9ecb"
 }
