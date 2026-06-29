@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006480-blue)](https://doi.org/10.82901/nemar.on006480)
+
 # Young Adult Resting State and Auditory Oddball Task EEG Data
 
 ## What is included
