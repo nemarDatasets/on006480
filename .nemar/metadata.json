@@ -1,30 +1,102 @@
 {
   "version": "2.0",
-  "dataset_id": "on006480",
-  "source": "openneuro",
-  "source_id": "ds006480",
+  "pipeline_stage": "enriched",
   "title": "Young Adult Resting State and Auditory Oddball Task EEG Data",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Andy Jeesu Kim": {},
+    "Andy Jeesu Kim": {
+      "orcid": "0000-0003-1124-0213"
+    },
     "Mara Mather": {},
     "Santiago Morales": {},
     "Joshua Senior": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006480.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2025.10.02.680040",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006480",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006480",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1186/s13063-024-08036-4",
+      "identifier_type": "DOI",
+      "relation_type": "IsPartOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from young adult participants during resting state and auditory oddball task conditions. Data were collected under two experimental conditions: a control condition and an arousal condition involving threat of unpredictable shock. The dataset includes both passive and active variants of the auditory oddball task, as well as resting state recordings with eyes open and closed, providing a comprehensive resource for investigating neural responses to auditory stimuli and the effects of threat-induced arousal on brain activity.",
+  "methods_description": "EEG data were collected during resting state (5 minutes eyes open and 5 minutes eyes closed) and auditory oddball tasks (passive and active variants) under control and shock threat conditions. The auditory oddball task included standard tones, target tones, and distractor tones, with the active variant including a manual response component.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "auditory oddball task"
+    },
+    {
+      "term": "oddball paradigm"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "threat of shock"
+    },
+    {
+      "term": "threat conditioning"
+    },
+    {
+      "term": "arousal"
+    },
+    {
+      "term": "locus coeruleus"
+    },
+    {
+      "term": "noradrenaline system"
+    },
+    {
+      "term": "young adults"
+    },
+    {
+      "term": "passive oddball"
+    },
+    {
+      "term": "active oddball"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute on Aging",
+      "award_number": ""
+    }
+  ],
+  "source_hash": "5c81bff2752ed470330788510c884af0b4f508def018c7487140ae0a02a0e340"
 }
