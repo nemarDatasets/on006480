@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Young Adult Resting State and Auditory Oddball Task EEG Data",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from young adult participants during resting state and auditory oddball task conditions. Data were collected under two experimental conditions: a control condition and a shock threat condition involving threat of unpredictable shock. The dataset includes both passive and active variants of the auditory oddball task, as well as resting state recordings with eyes open and closed, designed to investigate locus coeruleus-noradrenaline system function and its relationship to attention and arousal.",
+  "description": "This dataset contains resting state and auditory oddball task EEG recordings from older adults under two conditions: a control condition and an arousal condition induced by threat of unpredictable shock. Data were collected to examine locus coeruleus-noradrenaline system activity and its relation to arousal, attention, and behavior. Recordings include eyes-open and eyes-closed resting state segments as well as passive and active auditory oddball paradigms with standard, target, and distractor tones.",
   "methods_description": "EEG data were collected during resting state (5 minutes eyes open and 5 minutes eyes closed) and auditory oddball tasks (passive and active variants) under control and shock threat conditions. The auditory oddball task included standard tones, target tones, and distractor tones, with the active variant including a manual response component.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -31,44 +31,20 @@
       "term": "locus coeruleus"
     },
     {
-      "term": "noradrenaline system"
+      "term": "noradrenaline"
     },
     {
-      "term": "shock threat"
+      "term": "stress"
     },
     {
-      "term": "attention"
-    },
-    {
-      "term": "passive oddball"
-    },
-    {
-      "term": "active oddball"
-    },
-    {
-      "term": "young adults"
-    },
-    {
-      "term": "eyes open"
-    },
-    {
-      "term": "eyes closed"
-    },
-    {
-      "term": "threat condition"
-    },
-    {
-      "term": "control condition"
-    },
-    {
-      "term": "pupillometry"
+      "term": "threat of shock"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2025.10.02.680040",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on006480",
