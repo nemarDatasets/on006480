@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Young Adult Resting State and Auditory Oddball Task EEG Data",
-  "description": "This dataset contains resting state and auditory oddball task EEG recordings from older adults under two conditions: a control condition and an arousal condition induced by threat of unpredictable shock. Data were collected to examine locus coeruleus-noradrenaline system activity and its relation to arousal, attention, and behavior. Recordings include eyes-open and eyes-closed resting state segments as well as passive and active auditory oddball paradigms with standard, target, and distractor tones.",
-  "methods_description": "EEG data were collected during resting state (5 minutes eyes open and 5 minutes eyes closed) and auditory oddball tasks (passive and active variants) under control and shock threat conditions. The auditory oddball task included standard tones, target tones, and distractor tones, with the active variant including a manual response component.",
+  "description": "Resting-state and auditory oddball task EEG recordings from young adults, collected under two conditions: a control condition and an arousal condition induced by threat of unpredictable shock. Recordings include eyes-open and eyes-closed rest, plus passive and active auditory oddball tasks with standard, target, and distractor tones. The dataset supports investigation of arousal and locus coeruleus-noradrenaline system related neural activity.",
+  "methods_description": "EEG was recorded during 5-minute eyes-open and eyes-closed resting periods and during passive and active auditory oddball tasks. Each session was run under a control condition and a shock-threat arousal condition. Events are coded for task phase, tone type, and manual button responses.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -31,13 +31,10 @@
       "term": "locus coeruleus"
     },
     {
-      "term": "noradrenaline"
-    },
-    {
-      "term": "stress"
-    },
-    {
       "term": "threat of shock"
+    },
+    {
+      "term": "young adults"
     }
   ],
   "related_identifiers": [
@@ -82,7 +79,7 @@
     "eeg"
   ],
   "sizes": [
-    "68.8 GB (69 files)"
+    "64.05 GB (69 files)"
   ],
   "formats": [
     ".json",
